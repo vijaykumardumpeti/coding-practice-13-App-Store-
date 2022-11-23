@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.app-item-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+
+  height: 140px;
+  width: 140px;
+}
+
+@media screen and (max-width: 576px) {
+  .app-item-container {
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+  }
+
+  .app-para {
+    font-size: 10px;
+  }
+}
+
+.app-icon {
+  height: 60px;
+  width: 60px;
+}

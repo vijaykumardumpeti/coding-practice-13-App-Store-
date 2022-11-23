@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  background-size: cover;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  list-style-type: none;
+  max-width: 700px;
+}
+.app-store-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .app-store-container {
+    margin-right: 20px;
+  }
+  .app-items-container {
+    width: 400px;
+  }
+}
+.tab-items-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  list-style-type: none;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.input-element {
+  border: 2px solid #7b8794;
+  outline: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: 27px;
+  background-color: transparent;
+
+  border-right: none;
+
+  width: 215px;
+  margin-left: 29px;
+}
+.search-icon {
+  height: 27px;
+  border: 2px solid #7b8794;
+  border-left: none;
+
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.app-store-heading {
+  font-family: 'Bree Serif';
+}
